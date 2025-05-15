@@ -3,3 +3,4 @@ name = "vl-rethinker"
 version = "0.1.0"
 description = "The official code of "VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning" [NeurIPS25]"
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
